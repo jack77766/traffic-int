@@ -21,6 +21,10 @@ app.get('/casino', function(req, res) {
    res.render('casino');
 })
 
+app.get('/airport', function(req, res) {
+   res.render('airport');
+})
+
 app.get('/retail', function(req, res) {
    res.render('retail');
 })

@@ -868,6 +868,17 @@ Nav Menu style
 /*
 Home Section style
 ==================*/
+
+
+.airport{
+    background: url(../images/airport-bg.jpg) no-repeat scroll  center center;
+    background-size: cover;
+    position: relative;
+    padding-top: 300px;
+    padding-bottom: 190px;
+    width:100%;
+}
+
 .casino{
     background: url(../images/casino-bg.jpg) no-repeat scroll  center center;
     background-size: cover;
