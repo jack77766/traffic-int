@@ -868,7 +868,14 @@ Nav Menu style
 /*
 Home Section style
 ==================*/
-
+.casino{
+    background: url(../images/casino-bg.jpg) no-repeat scroll  center center;
+    background-size: cover;
+    position: relative;
+    padding-top: 300px;
+    padding-bottom: 190px;
+    width:100%;
+}
 
 .retail{
     background: url(../images/retail-bg.jpg) no-repeat scroll  center center;
