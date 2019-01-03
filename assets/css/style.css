@@ -869,6 +869,16 @@ Nav Menu style
 Home Section style
 ==================*/
 
+
+.retail{
+    background: url(../images/retail-bg.jpg) no-repeat scroll  center center;
+    background-size: cover;
+    position: relative;
+    padding-top: 300px;
+    padding-bottom: 190px;
+    width:100%;
+}
+
 .home{
     background: url(../images/home-bg.jpg) no-repeat scroll  center center;
     background-size: cover;
