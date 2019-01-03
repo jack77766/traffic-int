@@ -25,6 +25,13 @@ app.get('/airport', function(req, res) {
    res.render('airport');
 })
 
+app.get('/stadium', function(req, res) {
+   res.render('soon');
+})
+app.get('/children', function(req, res) {
+   res.render('soon');
+})
+
 app.get('/retail', function(req, res) {
    res.render('retail');
 })

@@ -868,7 +868,14 @@ Nav Menu style
 /*
 Home Section style
 ==================*/
+.soon{
+    background: url(../images/soon-bg.png) no-repeat scroll center center;
+    background-size: 400px 200px;
+    position: relative;
+    padding-top: 500px;
+    padding-bottom: 190px;
 
+}
 
 .airport{
     background: url(../images/airport-bg.jpg) no-repeat scroll  center center;
