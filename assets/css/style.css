@@ -877,6 +877,15 @@ Home Section style
 
 }
 
+.traffic{
+    background: url(../images/traffic-bg.jpg) no-repeat scroll center center;
+    background-size: cover;
+    position: relative;
+    padding-top: 300px;
+    padding-bottom: 190px;
+    width:100%;
+}
+
 .stadium{
     background: url(../images/stadium-bg.jpg) no-repeat scroll center center;
     background-size: cover;
@@ -884,7 +893,6 @@ Home Section style
     padding-top: 300px;
     padding-bottom: 190px;
     width:100%;
-
 }
 
 .airport{

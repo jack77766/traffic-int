@@ -28,8 +28,8 @@ app.get('/airport', function(req, res) {
 app.get('/stadium', function(req, res) {
    res.render('stadium');
 })
-app.get('/children', function(req, res) {
-   res.render('soon');
+app.get('/traffic', function(req, res) {
+   res.render('traffic');
 })
 
 app.get('/retail', function(req, res) {
