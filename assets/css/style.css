@@ -874,6 +874,21 @@ Home Section style
     position: relative;
     padding-top: 500px;
     padding-bottom: 190px;
+}
+
+.products{
+    /* background: url(../images/soon-bg.png) no-repeat scroll center center; */
+    /* background-size: 400px 200px;
+    position: relative;
+    padding-top: 500px;
+    padding-bottom: 190px; */
+    width: 100%;
+    position: relative;
+
+}
+.products-lage{
+    position: relative;
+    width:100%;
 
 }
 

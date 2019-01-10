@@ -4,12 +4,10 @@ var express         = require('express'),
     dotenv          = require('dotenv').config()
 
 
-app.use(express.static(__dirname + '/public'));
-app.set('view engine', 'ejs');
-
-
-
+// app.use(express.static(__dirname + '/public'));
 app.use("/assets",  express.static(__dirname + '/assets'));
+// app.use(express.static('assets/'));
+app.set('view engine', 'ejs');
 
 
 app.get('/', function(req, res) {
@@ -35,6 +33,15 @@ app.get('/traffic', function(req, res) {
 app.get('/retail', function(req, res) {
    res.render('retail');
 })
+
+app.get('/product', function(req, res) {
+   res.render('product');
+})
+
+app.get('/TI-401M', function(req, res) {
+   res.render('TI-401M');
+})
+
 
 
 app.listen(process.env.PORT, process.env.IP, function() {
