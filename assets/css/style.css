@@ -678,6 +678,13 @@ textarea::-ms-input-placeholder{
     font-weight: 700;
     font-size:2.250rem;
 }
+
+.head_title h3{
+    margin-top: 70px;
+    color:#494848;
+}
+
+
 .head_title h5{
     font-weight: 400;
     font-size:1.125rem;
@@ -1208,7 +1215,28 @@ work Section style
 }
 
 
+/*About Us Section
+======================*/
+.about_us_row{
+    background-color: #00a885;
+}   
+.about_us h2{
+    font-weight: 700;
+    font-size:2.25rem;
+}
 
+/* .head_title{
+    padding-bottom: 2.143rem;
+    overflow: hidden;
+}
+.head_title h2{
+    font-weight: 700;
+    font-size:2.250rem;
+} */
+.about_us h3{
+    margin-top: 30px;
+    color:#474646;
+}
 
 /*Test Section
 ======================*/

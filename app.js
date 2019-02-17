@@ -42,6 +42,10 @@ app.get('/TI-401M', function(req, res) {
    res.render('TI-401M');
 })
 
+app.get('/about', (req,res) => {
+   res.render('about')
+})
+
 
 
 app.listen(process.env.PORT, process.env.IP, function() {
