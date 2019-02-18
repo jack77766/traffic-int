@@ -1225,6 +1225,13 @@ work Section style
     font-size:2.25rem;
 }
 
+.about_us_h1{
+    background: rgba(0,168,133,0.60);
+    color: white;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
 /* .head_title{
     padding-bottom: 2.143rem;
     overflow: hidden;
@@ -1235,7 +1242,17 @@ work Section style
 } */
 .about_us h3{
     margin-top: 30px;
-    color:#474646;
+    margin-bottom: 40px;
+    border: #434769;
+    color: #00a885;
+    font-size: 2.0rem;
+    font-weight: 400;
+}
+
+.about_us p {
+    font-weight: 400;
+    font-size:1.50rem;
+    margin-bottom: 2em;
 }
 
 /*Test Section
