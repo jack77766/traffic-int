@@ -42,6 +42,10 @@ app.get('/TI-401M', function(req, res) {
    res.render('TI-401M');
 })
 
+app.get('/TI-402', function(req, res) {
+   res.render('TI-402');
+})
+
 app.get('/about', (req,res) => {
    res.render('about')
 })
